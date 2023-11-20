@@ -29,19 +29,35 @@ main {
 main article {
   width: 60vw;
   height: 60vh;
-  text-align: center;
   background-color: rgb(240, 144, 1);
   display: flex;
   flex-flow: column wrap;
-  /* justify-content: center;
-  align-items: center; */
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
 }
 
 main article div {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background-color: rgb(133, 121, 106);
+}
+
+main article div:nth-child(1) {
+  height: 160px;
+}
+
+main article div:nth-child(2) {
+  height: 80px;
+}
+
+main article div:nth-child(5) {
+  height: 80px;
+}
+
+main article div:nth-child(6) {
+  height: 160px;
 }
 
 main aside {
