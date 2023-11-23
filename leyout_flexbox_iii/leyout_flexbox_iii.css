@@ -4,21 +4,16 @@
   box-sizing: border-box;
 }
 
-html {
-  width: 100vw;
-  height: 100vh;
-}
-
 body {
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
 header {
   width: 100vw;
   height: 20vh;
   background-color: antiquewhite;
-  text-align: center;
 }
 
 main {
@@ -26,6 +21,7 @@ main {
   height: 60vh;
   display: flex;
 }
+
 main article {
   width: 60vw;
   height: 60vh;
@@ -40,43 +36,41 @@ main article {
 
 main article div {
   width: 120px;
-  height: 120px;
+  height: 35%;
   background-color: rgb(133, 121, 106);
 }
 
 main article div:nth-child(1) {
-  height: 160px;
+  height: 45%;
 }
 
 main article div:nth-child(2) {
-  height: 80px;
+  height: 25%;
+  margin-bottom: 5%;
 }
 
 main article div:nth-child(5) {
-  height: 80px;
+  height: 25%;
 }
 
 main article div:nth-child(6) {
-  height: 160px;
+  height: 45%;
 }
 
 main aside {
   width: 20vw;
   height: 80vh;
-  text-align: center;
   background-color: brown;
 }
 
 main nav {
   width: 20vw;
   height: 80vh;
-  text-align: center;
   background-color: #808080;
 }
 
 footer {
   width: 60vw;
   height: 20vh;
-  text-align: center;
   background-color: rgb(134, 82, 184);
 }

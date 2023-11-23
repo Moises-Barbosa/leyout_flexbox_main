@@ -7,13 +7,13 @@
 body {
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
 body header {
   background-color: #c7f6c8;
   width: 100vw;
   height: 20vh;
-  text-align: center;
 }
 
 body div {
@@ -24,14 +24,12 @@ body div article {
   background-color: #dbfaf4;
   width: 60vw;
   height: 60vh;
-  text-align: center;
 }
 
 div aside {
   background-color: #28eb0e;
   width: 40vw;
   height: 60vh;
-  text-align: center;
 }
 
 body div aside div {
@@ -54,5 +52,4 @@ body div aside div div {
 body footer {
   background-color: #238916;
   height: 20vh;
-  text-align: center;
 }

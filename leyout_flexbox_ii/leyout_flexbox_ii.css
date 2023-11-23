@@ -7,6 +7,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
 main {
@@ -18,7 +19,6 @@ main nav {
   width: 20vw;
   height: 100vh;
   background-color: rgb(112, 129, 113);
-  text-align: center;
 }
 
 main div {
@@ -30,7 +30,6 @@ header {
   width: 80vw;
   height: 20vh;
   background-color: #c7f6c8;
-  text-align: center;
 }
 
 main div div {
@@ -47,19 +46,16 @@ article {
   width: 60vw;
   height: 65vh;
   background-color: #dbfaf4;
-  text-align: center;
 }
 
 footer {
   width: 60vw;
   height: 15vh;
   background-color: #238915;
-  text-align: center;
 }
 
 aside {
   width: 20vw;
   height: 80vh;
   background-color: #5fc463;
-  text-align: center;
 }
